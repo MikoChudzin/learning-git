@@ -12,8 +12,8 @@ with open('D:\\Kodowanie\\Personal\\ver2.txt', 'w') as f3:
             f3.write(line1)
 
 with open('D:\\Kodowanie\\Personal\\ver3.txt', 'w') as f4:
-    lines_of_result = set(lines_to_modify)-set(lines_to_remove)    # using sets this task becomes way simpler
+    lines_of_result = set(lines_to_modify)-set(lines_to_remove)    # by using sets this task becomes way simpler
     result = list(lines_of_result)
-    result.sort()
+    result.sort()           # still gotta sort it though
     for line in result:
         f4.write(line)
